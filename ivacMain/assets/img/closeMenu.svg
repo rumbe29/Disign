@@ -1,0 +1,6 @@
+<svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M2 12C2 6.47715 6.47715 2 12 2H24V24H2L2 12Z" stroke="black" stroke-width="4"/>
+<path d="M2 32L24 32V54H12C6.47715 54 2 49.5228 2 44V32Z" stroke="black" stroke-width="4"/>
+<path d="M32 32H54V44C54 49.5228 49.5228 54 44 54H32L32 32Z" stroke="black" stroke-width="4"/>
+<path d="M32 2L44 2C49.5228 2 54 6.47715 54 12V24H32V2Z" stroke="black" stroke-width="4"/>
+</svg>

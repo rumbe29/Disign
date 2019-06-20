@@ -1,0 +1,201 @@
+#openMenu {
+  position: fixed;
+  width: 396px;
+  height: 569px;
+  left: 0px;
+  top: 96px;
+  background: #FFFFFF;
+}
+
+#receptOpenButtom {
+  position: fixed;
+  width: 367px;
+  height: 84px;
+  left: 15px;
+  top: 96px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+#adminOpenButtom {
+  position: fixed;
+  width: 367px;
+  height: 84px;
+  left: 15px;
+  top: 186px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+#statisticOpenButtom {
+  position: fixed;
+  width: 367px;
+  height: 84px;
+  left: 15px;
+  top: 278px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+#diagnosticOpenButtom {
+  position: fixed;
+  width: 367px;
+  height: 84px;
+  left: 15px;
+  top: 370px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+#ReteacheOpenButtom {
+  position: fixed;
+  width: 367px;
+  height: 84px;
+  left: 15px;
+  top: 464px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+#logOpenButtom {
+  position: fixed;
+  width: 367px;
+  height: 84px;
+  left: 15px;
+  top: 558px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+.imgMenuRecept {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  left: 52px;
+  top: 108px;
+}
+
+.txtMenuRecep {
+  position: fixed;
+  width: 185.68px;
+  height: 52px;
+  left: 144.28px;
+  top: 112px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.imgMenuAdmin {
+  position: fixed;
+  width: 57.66px;
+  height: 60px;
+  left: 53px;
+  top: 198px;
+}
+
+.imgMenuStatist {
+  position: fixed;
+  width: 57.66px;
+  height: 60px;
+  left: 53px;
+  top: 290px;
+}
+
+.imgMenuDiagnoz {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  left: 52px;
+  top: 382px;
+}
+
+.imgMenuReteach {
+  position: fixed;
+  width: 57.64px;
+  height: 36px;
+  left: 53px;
+  top: 488px;
+}
+
+.imgMenuLog {
+  position: fixed;
+  width: 42.22px;
+  height: 60px;
+  left: 61px;
+  top: 571px;
+}
+
+.txtMenuAdmin {
+  position: fixed;
+  width: 239.72px;
+  height: 52px;
+  left: 144.28px;
+  top: 202px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.txtMenuStatist {
+  position: fixed;
+  width: 239.72px;
+  height: 52px;
+  left: 144.28px;
+  top: 294px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.txtMenuDiagnoz {
+  position: fixed;
+  width: 185.68px;
+  height: 52px;
+  left: 144.28px;
+  top: 386px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.txtMenuReteach {
+  position: fixed;
+  width: 178.39px;
+  height: 52px;
+  left: 144.28px;
+  top: 480px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.txtMenuLog {
+  position: fixed;
+  width: 185.68px;
+  height: 52px;
+  left: 144.28px;
+  top: 574px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #000000;
+}
+

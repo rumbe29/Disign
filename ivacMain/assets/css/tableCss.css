@@ -1,0 +1,193 @@
+.thM {
+  border: 2px solid #000000;
+  box-sizing: border-box;
+}
+
+.colNum {
+  position: fixed;
+  width: 130px;
+  height: 50px;
+  left: 15px;
+  top: 622px;
+}
+
+.colSize {
+  position: fixed;
+  width: 130px;
+  height: 50px;
+  left: 143px;
+  top: 622px;
+}
+
+.colV {
+  position: fixed;
+  width: 152px;
+  height: 50px;
+  left: 271px;
+  top: 622px;
+}
+
+.colRecept {
+  position: fixed;
+  width: 204px;
+  height: 50px;
+  left: 421px;
+  top: 622px;
+}
+
+.colSort {
+  position: fixed;
+  width: 204px;
+  height: 50px;
+  left: 623px;
+  top: 622px;
+}
+
+.colDefect {
+  position: fixed;
+  width: 790px;
+  height: 26px;
+  left: 825px;
+  top: 622px;
+}
+
+.colD1 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 825px;
+  top: 646px;
+}
+
+.colD2 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 903.8px;
+  top: 646px;
+}
+
+.colD3 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 982.6px;
+  top: 646px;
+}
+
+.colD4 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 1061.4px;
+  top: 646px;
+}
+
+.colD5 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 1140.2px;
+  top: 646px;
+}
+
+.colD6 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 1219px;
+  top: 646px;
+}
+
+.colD7 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 1297.8px;
+  top: 646px;
+}
+
+.colD8 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 1376.6px;
+  top: 646px;
+}
+
+.colD9 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 1455.4px;
+  top: 646px;
+}
+
+.colD10 {
+  position: fixed;
+  width: 80.8px;
+  height: 26px;
+  left: 1534.2px;
+  top: 646px;
+}
+
+.colTorc {
+  position: fixed;
+  width: 290px;
+  height: 50px;
+  left: 1615px;
+  top: 622px;
+}
+
+.colTorc1 {
+  position: fixed;
+  width: 146px;
+  height: 50px;
+  left: 1615px;
+  /*top: 670px;*/
+}
+
+.colTorc2 {
+  position: fixed;
+  width: 146px;
+  height: 50px;
+  left: 1759px;
+  /*top: 670px;*/
+}
+
+.defH {
+  height: 50px;
+}
+
+#Line1 > .colNum, #Line1 > .colSize, #Line1 > .colV, #Line1 > .colRecept, #Line1 > .colSort, #Line1 > .grDef > .colD1, #Line1 > .grDef > .colD2, #Line1 > .grDef > .colD3, #Line1 > .grDef > .colD4, #Line1 > .grDef > .colD5, #Line1 > .grDef > .colD6, #Line1 > .grDef > .colD7, #Line1 > .grDef > .colD8, #Line1 > .grDef > .colD9, #Line1 > .grDef > .colD10, #Line1 > .grTrc > .colTorc1, #Line1 > .grTrc > .colTorc2 {
+  top: 670px;
+}
+
+#Line2 > .colNum, #Line2 > .colSize, #Line2 > .colV, #Line2 > .colRecept, #Line2 > .colSort, #Line2 > .grDef > .colD1, #Line2 > .grDef > .colD2, #Line2 > .grDef > .colD3, #Line2 > .grDef > .colD4, #Line2 > .grDef > .colD5, #Line2 > .grDef > .colD6, #Line2 > .grDef > .colD7, #Line2 > .grDef > .colD8, #Line2 > .grDef > .colD9, #Line2 > .grDef > .colD10, #Line2 > .grTrc > .colTorc1, #Line2 > .grTrc > .colTorc2 {
+  top: 718px;
+}
+
+#Line3 > .colNum, #Line3 > .colSize, #Line3 > .colV, #Line3 > .colRecept, #Line3 > .colSort, #Line3 > .grDef > .colD1, #Line3 > .grDef > .colD2, #Line3 > .grDef > .colD3, #Line3 > .grDef > .colD4, #Line3 > .grDef > .colD5, #Line3 > .grDef > .colD6, #Line3 > .grDef > .colD7, #Line3 > .grDef > .colD8, #Line3 > .grDef > .colD9, #Line3 > .grDef > .colD10, #Line3 > .grTrc > .colTorc1, #Line3 > .grTrc > .colTorc2 {
+  top: 766px;
+}
+
+#Line4 > .colNum, #Line4 > .colSize, #Line4 > .colV, #Line4 > .colRecept, #Line4 > .colSort, #Line4 > .grDef > .colD1, #Line4 > .grDef > .colD2, #Line4 > .grDef > .colD3, #Line4 > .grDef > .colD4, #Line4 > .grDef > .colD5, #Line4 > .grDef > .colD6, #Line4 > .grDef > .colD7, #Line4 > .grDef > .colD8, #Line4 > .grDef > .colD9, #Line4 > .grDef > .colD10, #Line4 > .grTrc > .colTorc1, #Line4 > .grTrc > .colTorc2 {
+  top: 814px;
+}
+
+#Line5 > .colNum, #Line5 > .colSize, #Line5 > .colV, #Line5 > .colRecept, #Line5 > .colSort, #Line5 > .grDef > .colD1, #Line5 > .grDef > .colD2, #Line5 > .grDef > .colD3, #Line5 > .grDef > .colD4, #Line5 > .grDef > .colD5, #Line5 > .grDef > .colD6, #Line5 > .grDef > .colD7, #Line5 > .grDef > .colD8, #Line5 > .grDef > .colD9, #Line5 > .grDef > .colD10, #Line5 > .grTrc > .colTorc1, #Line5 > .grTrc > .colTorc2 {
+  top: 862px;
+}
+
+#Line6 > .colNum, #Line6 > .colSize, #Line6 > .colV, #Line6 > .colRecept, #Line6 > .colSort, #Line6 > .grDef > .colD1, #Line6 > .grDef > .colD2, #Line6 > .grDef > .colD3, #Line6 > .grDef > .colD4, #Line6 > .grDef > .colD5, #Line6 > .grDef > .colD6, #Line6 > .grDef > .colD7, #Line6 > .grDef > .colD8, #Line6 > .grDef > .colD9, #Line6 > .grDef > .colD10, #Line6 > .grTrc > .colTorc1, #Line6 > .grTrc > .colTorc2 {
+  top: 910px;
+}
+
+#Line7 > .colNum, #Line7 > .colSize, #Line7 > .colV, #Line7 > .colRecept, #Line7 > .colSort, #Line7 > .grDef > .colD1, #Line7 > .grDef > .colD2, #Line7 > .grDef > .colD3, #Line7 > .grDef > .colD4, #Line7 > .grDef > .colD5, #Line7 > .grDef > .colD6, #Line7 > .grDef > .colD7, #Line7 > .grDef > .colD8, #Line7 > .grDef > .colD9, #Line7 > .grDef > .colD10, #Line7 > .grTrc > .colTorc1, #Line7 > .grTrc > .colTorc2 {
+  top: 958px;
+}
+
+#Line8 > .colNum, #Line8 > .colSize, #Line8 > .colV, #Line8 > .colRecept, #Line8 > .colSort, #Line8 > .grDef > .colD1, #Line8 > .grDef > .colD2, #Line8 > .grDef > .colD3, #Line8 > .grDef > .colD4, #Line8 > .grDef > .colD5, #Line8 > .grDef > .colD6, #Line8 > .grDef > .colD7, #Line8 > .grDef > .colD8, #Line8 > .grDef > .colD9, #Line8 > .grDef > .colD10, #Line8 > .grTrc > .colTorc1, #Line8 > .grTrc > .colTorc2 {
+  top: 1006px;
+}
+

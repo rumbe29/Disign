@@ -1,0 +1,488 @@
+html {
+}
+
+.TitleWoodSorting {
+  position: fixed;
+  width: 571px;
+  height: 35px;
+  left: 675px;
+  top: 26px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.logoImg {
+  position: fixed;
+  width: 200px;
+  height: 78px;
+  left: 177px;
+  top: 9px;
+}
+
+.imgMenuClose {
+  position: fixed;
+  width: 56px;
+  height: 56px;
+  left: 52px;
+  top: 20px;
+}
+
+.imgMenuOpen {
+  position: fixed;
+  width: 56px;
+  height: 56px;
+  left: 52px;
+  top: 20px;
+  /*display: none;*/
+}
+
+.timeClock {
+  position: fixed;
+  width: 128px;
+  height: 21px;
+  left: 861px;
+  top: 72px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.disconnect {
+  position: fixed;
+  width: 14px;
+  height: 14px;
+  left: 1004px;
+  top: 76px;
+}
+
+.light {
+  position: fixed;
+  width: 24.71px;
+  height: 14px;
+  left: 1033px;
+  top: 76px;
+  /*transform: matrix(-1, 0, 0, 1, 0, 0);*/
+}
+
+.logUserIn {
+  position: fixed;
+  width: 199px;
+  height: 37px;
+  left: 1661px;
+  top: 11px;
+  background: #FFFFFF;
+  box-shadow: 2px -1px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 48px 0px 0px;
+}
+
+.logPasswordIn {
+  position: fixed;
+  width: 199px;
+  height: 37px;
+  left: 1661px;
+  top: 50px;
+  background: #FFFFFF;
+  box-shadow: 2px -1px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 48px 0px 0px;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.imgUser {
+  position: fixed;
+  width: 24px;
+  height: 25px;
+  left: 1667px;
+  top: 17px;
+}
+
+.imgLock {
+  position: fixed;
+  width: 16px;
+  height: 25px;
+  left: 1671px;
+  top: 54px;
+}
+
+.imgArrow {
+  position: fixed;
+  width: 38px;
+  height: 38px;
+  left: 1839px;
+  top: 29px;
+}
+
+.arrow {
+  position: fixed;
+  width: 38px;
+  height: 38px;
+  left: 1839px;
+  top: 29px;
+}
+
+.UserForm {
+  position: fixed;
+  width: 133px;
+  height: 22px;
+  left: 1701px;
+  top: 21px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  border: none;
+}
+
+.PassForm {
+  position: fixed;
+  width: 133px;
+  height: 22px;
+  left: 1701px;
+  top: 60px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #000000;
+  border: none;
+}
+
+.container-fluid.header {
+  position: fixed;
+  width: 1920px;
+  height: 96px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.15);
+}
+
+.cont2 {
+  position: fixed;
+  width: 1920px;
+  height: 506px;
+  left: 0px;
+  top: 96px;
+}
+
+.filtr1 {
+  position: fixed;
+  width: 142px;
+  height: 48px;
+  left: 15px;
+  top: 143px;
+  background: #B7B7B7;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px 40px 0px 0px;
+  z-index: 5;
+}
+
+.txtFiltr1 {
+  position: fixed;
+  width: 81px;
+  height: 46.22px;
+  left: 46px;
+  top: 144.78px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #FFFFFF;
+}
+
+.filtr2 {
+  position: fixed;
+  width: 177px;
+  height: 48px;
+  left: 122px;
+  top: 143px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px 40px 0px 0px;
+  z-index: 4;
+}
+
+.txtFiltr2 {
+  position: fixed;
+  width: 104.39px;
+  height: 46.22px;
+  left: 186.95px;
+  top: 144.78px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.filtr3 {
+  position: fixed;
+  width: 176px;
+  height: 48px;
+  left: 263px;
+  top: 143px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  border-radius: 0px 40px 0px 0px;
+}
+
+.txtFiltr3 {
+  position: fixed;
+  width: 104.39px;
+  height: 46.22px;
+  left: 338px;
+  top: 144.78px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 52px;
+  color: #000000;
+}
+
+.tX {
+  z-index: 15;
+}
+
+.pauseUpd {
+  position: fixed;
+  width: 300px;
+  height: 50px;
+  left: 1364px;
+  top: 140px;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 0px 40px 0px 0px;
+  z-index: 1;
+}
+
+.plan {
+  position: fixed;
+  width: 281px;
+  height: 50px;
+  left: 1621.5px;
+  top: 140px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  border-radius: 0px 40px 0px 0px;
+  z-index: 2;
+}
+
+.stUpd {
+  position: fixed;
+  width: 43px;
+  height: 38px;
+  left: 1401.5px;
+  top: 147px;
+}
+
+.planing {
+  position: fixed;
+  width: 43px;
+  height: 43px;
+  left: 1677.5px;
+  top: 144px;
+}
+
+.txUpd {
+  position: fixed;
+  width: 170.82px;
+  height: 42px;
+  left: 1454.55px;
+  top: 146px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.txPlan {
+  position: fixed;
+  width: 158px;
+  height: 48px;
+  left: 1745px;
+  top: 143px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 52px;
+  color: #000000;
+}
+
+#imgBr {
+  position: fixed;
+  width: 1887.99px;
+  height: 409.8px;
+  left: 15.01px;
+  top: 188px;
+  background: rgba(0, 0, 0, 0.2);
+  border: 3px solid #000000;
+  object-fit: contain;
+  z-index: -1;
+}
+
+#numLT {
+  position: fixed;
+  width: 266px;
+  height: 53.99px;
+  left: 39px;
+  top: 191px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+#sizeRT {
+  position: fixed;
+  width: 424px;
+  height: 54.88px;
+  left: 1455px;
+  top: 191px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+#sortLB {
+  position: fixed;
+  width: 265px;
+  height: 56.65px;
+  left: 39px;
+  top: 550.35px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+#defectRB {
+  position: fixed;
+  width: 744px;
+  height: 54.88px;
+  left: 1135px;
+  top: 552.12px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 150%;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+#tableContainer {
+  position: fixed;
+  width: 1920px;
+  height: 435px;
+  left: 0px;
+  top: 622px;
+}
+
+.successLogin {
+  position: fixed;
+  width: 199px;
+  height: 74px;
+  left: 1661px;
+  top: 11px;
+}
+
+.logOutButton {
+  position: fixed;
+  width: 38px;
+  height: 38px;
+  left: 1839px;
+  top: 48px;
+  /*left: 1822px;*/
+  /*top: 85px;*/
+}
+
+.systemControlSpan {
+  position: fixed;
+  width: 179px;
+  height: 17px;
+  left: 1674px;
+  top: 26px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.UserName {
+  position: fixed;
+  width: 112px;
+  height: 17px;
+  left: 1676px;
+  top: 56px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.PodlogSucLogin {
+  position: fixed;
+  width: 199px;
+  height: 74px;
+  left: 1661px;
+  top: 11px;
+  background: #FFFFFF;
+  box-shadow: 2px -1px 14px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 36px 36px 0px;
+}
+

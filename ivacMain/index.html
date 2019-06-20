@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>ivacevichi</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/tableCss.css">
+    <link rel="stylesheet" href="assets/css/tbCssMainScreen.css">
+    <link rel="stylesheet" href="assets/css/textTable.css">
+    <link rel="stylesheet" href="assets/css/psevdo.css">
+</head>
+
+<body>
+    <div class="container-fluid header">
+        <div class="row">
+            <div class="col-12" style="width: 130px;height: 96px;">
+                <div id="opMenu" class="imgMenuClose"><img class="d-xl-flex imgMenuClose" src="assets/img/closeMenu.svg"></div>
+                <div id="clMenu" class="imgMenuOpen" style="display:none"><img class="d-xl-flex imgMenuOpen" src="assets/img/openMenu.svg" style="display:none"></div><img src="assets/img/logo.svg" class="logoImg"><span class="TitleWoodSorting">Wood sorting system</span><span class="timeClock"><br>19.06.2019 08:12:56<br><br></span>
+                <img
+                    src="assets/img/disconnect.png" class="disconnect"><img src="assets/img/light.svg" class="light">
+                    <div id="SL" class="successLogin" style="display:none">
+                        <div class="PodlogSucLogin"></div><span class="systemControlSpan">Система по контролем</span><span class="UserName">Пользователя</span><img src="assets/img/editArrow2.svg" class="logOutButton"></div>
+                    <div id="FL" class="formaLoging">
+                        <div class="logUserIn"></div>
+                        <div class="logPasswordIn"></div><img src="assets/img/editUser.svg" class="imgUser"><img src="assets/img/editLock.svg" class="imgLock"><input type="text" placeholder="Пользователь" class="UserForm"><input type="password" placeholder="Пароль" class="PassForm">
+                        <div id="arrow"
+                            z-index="8"><img src="assets/img/editArrow.svg" class="imgArrow"></div>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid cont2">
+        <div class="row">
+            <div class="col">
+                <div class="filtr1 hUpTabs"><span class="txtFiltr1 tX">Original</span></div>
+                <div class="filtr2 hUpTabs"><span class="txtFiltr2 tX">X-Ray</span></div>
+                <div class="filtr3 hUpTabs"><span class="txtFiltr3 tX">Grey</span></div>
+                <div class="pauseUpd hUpTabs"></div>
+                <div class="plan hUpTabs"></div><img src="assets/img/PlanImg.svg" class="planing tX"><span class="txPlan tX">Планирование</span><span class="txUpd tX">Приостановить обновление экрана</span><img src="assets/img/StopUpdate.svg" class="stUpd tX">
+                <div><img src="assets/img/exp.jpg" id="imgBr" style="filter: saturate(0%);"><span id="numLT"><br>№30002 <br><br></span><span class="d-xl-flex justify-content-xl-end" id="sizeRT"><br>6×0.2×0.1м<br><br></span><span id="sortLB"><br>1 сорт<br><br></span>
+                    <span
+                        class="d-xl-flex justify-content-xl-end" id="defectRB">1 порок</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid tableCon">
+        <div id="headTable">
+            <div class="thM colNum"><span class="tbHdTx1">№</span></div>
+            <div class="thM colSize"><span class="tbHdTx2"><br>Ш×В×Т,м<br><br></span></div>
+            <div class="thM colV"><span class="tbHdTx3"><br>Объем,м3<br><br></span></div>
+            <div class="thM colRecept"><span class="tbHdTx4"><br>Рецепт<br><br></span></div>
+            <div class="thM colSort"><span class="tbHdTx5"><br>Сорт<br><br></span></div>
+            <div>
+                <div class="thM colDefect"><span class="tbHdTx6">Пороки</span></div>
+                <div class="thM colD1"><span class="tbHdTx7">Синева</span></div>
+                <div class="thM colD2"><span class="tbHdTx8">Обзол</span></div>
+                <div class="thM colD3"><span class="tbHdTx9">Гниль</span></div>
+                <div class="thM colD4"><span class="tbHdTx10">Трещины</span></div>
+                <div class="thM colD5"><span class="tbHdTx11">Сучки</span></div>
+                <div class="thM colD6"><span class="tbHdTx12">max размер сучка</span></div>
+                <div class="thM colD7"><span class="tbHdTx13">Сучки</span></div>
+                <div class="thM colD8"><span class="tbHdTx13">Сучки</span></div>
+                <div class="thM colD9"><span class="tbHdTx13">Сучки</span></div>
+                <div class="thM colD10"><span class="tbHdTx13">Сучки</span></div>
+            </div>
+            <div class="thM colTorc"><span class="tbHdTx17">Торцы</span></div>
+        </div>
+        <div id="Line1">
+            <div class="d-xl-flex justify-content-xl-center thM colNum text-center"><span class="colNum com1">20220222<br><br></span></div>
+            <div class="thM colSize text-center"><span class="colSize com1">6×0,2×0,1м<br><br></span></div>
+            <div class="thM colV text-center"><span class="colV com1">3</span></div>
+            <div class="thM colRecept text-center"><span class="colRecept com1">экспорт СНГ<br></span></div>
+            <div class="thM colSort text-center"><span class="colSort com1">1 сорт<br><br></span></div>
+            <div class="grDef">
+                <div class="thM colD1 defH text-center"><span class="colD1 com1">0</span></div>
+                <div class="thM colD2 defH text-center"><span class="colD2 com1">0</span></div>
+                <div class="thM colD3 defH text-center"><span class="colD3 com1">0</span></div>
+                <div class="thM colD4 defH text-center"><span class="colD4 com1">0</span></div>
+                <div class="thM colD5 defH text-center"><span class="colD5 com1">0</span></div>
+                <div class="thM colD6 defH text-center"><span class="colD6 com1">0</span></div>
+                <div class="thM colD7 defH text-center"><span class="colD7 com1">0</span></div>
+                <div class="thM colD8 defH text-center"><span class="colD8 com1">0</span></div>
+                <div class="thM colD9 defH text-center"><span class="colD9 com1">0</span></div>
+                <div class="thM colD10 defH text-center"><span class="colD10 com1">0</span></div>
+            </div>
+            <div class="grTrc">
+                <div class="thM colTorc1"><span class="com1 colTorc1 text-center" style="width:92px">15×0,3м<br><br></span><img src="assets/img/Rectangle%203.png" class="leftImgTrc"><span class="com1 comL text-center">л</span></div>
+                <div class="thM colTorc2"><span class="com1 colTorc2 text-center" style="width:92px">15×0,3м<br><br></span><img src="assets/img/Rectangle%203.png" class="rightImgTrc"><span class="com1 comR text-center">л</span></div>
+            </div>
+        </div>
+        <div id="Line2">
+            <div class="thM colNum"></div>
+            <div class="thM colSize"></div>
+            <div class="thM colV"></div>
+            <div class="thM colRecept"></div>
+            <div class="thM colSort"></div>
+            <div class="grDef">
+                <div class="thM colD1 defH"></div>
+                <div class="thM colD2 defH"></div>
+                <div class="thM colD3 defH"></div>
+                <div class="thM colD4 defH"></div>
+                <div class="thM colD5 defH"></div>
+                <div class="thM colD6 defH"></div>
+                <div class="thM colD7 defH"></div>
+                <div class="thM colD8 defH"></div>
+                <div class="thM colD9 defH"></div>
+                <div class="thM colD10 defH"></div>
+            </div>
+            <div class="grTrc">
+                <div class="thM colTorc1"></div>
+                <div class="thM colTorc2"></div>
+            </div>
+        </div>
+        <div id="Line3">
+            <div class="thM colNum"></div>
+            <div class="thM colSize"></div>
+            <div class="thM colV"></div>
+            <div class="thM colRecept"></div>
+            <div class="thM colSort"></div>
+            <div class="grDef">
+                <div class="thM colD1 defH"></div>
+                <div class="thM colD2 defH"></div>
+                <div class="thM colD3 defH"></div>
+                <div class="thM colD4 defH"></div>
+                <div class="thM colD5 defH"></div>
+                <div class="thM colD6 defH"></div>
+                <div class="thM colD7 defH"></div>
+                <div class="thM colD8 defH"></div>
+                <div class="thM colD9 defH"></div>
+                <div class="thM colD10 defH"></div>
+            </div>
+            <div class="grTrc">
+                <div class="thM colTorc1"></div>
+                <div class="thM colTorc2"></div>
+            </div>
+        </div>
+        <div id="Line4">
+            <div class="thM colNum"></div>
+            <div class="thM colSize"></div>
+            <div class="thM colV"></div>
+            <div class="thM colRecept"></div>
+            <div class="thM colSort"></div>
+            <div class="grDef">
+                <div class="thM colD1 defH"></div>
+                <div class="thM colD2 defH"></div>
+                <div class="thM colD3 defH"></div>
+                <div class="thM colD4 defH"></div>
+                <div class="thM colD5 defH"></div>
+                <div class="thM colD6 defH"></div>
+                <div class="thM colD7 defH"></div>
+                <div class="thM colD8 defH"></div>
+                <div class="thM colD9 defH"></div>
+                <div class="thM colD10 defH"></div>
+            </div>
+            <div class="grTrc">
+                <div class="thM colTorc1"></div>
+                <div class="thM colTorc2"></div>
+            </div>
+        </div>
+        <div id="Line5">
+            <div class="thM colNum"></div>
+            <div class="thM colSize"></div>
+            <div class="thM colV"></div>
+            <div class="thM colRecept"></div>
+            <div class="thM colSort"></div>
+            <div class="grDef">
+                <div class="thM colD1 defH"></div>
+                <div class="thM colD2 defH"></div>
+                <div class="thM colD3 defH"></div>
+                <div class="thM colD4 defH"></div>
+                <div class="thM colD5 defH"></div>
+                <div class="thM colD6 defH"></div>
+                <div class="thM colD7 defH"></div>
+                <div class="thM colD8 defH"></div>
+                <div class="thM colD9 defH"></div>
+                <div class="thM colD10 defH"></div>
+            </div>
+            <div class="grTrc">
+                <div class="thM colTorc1"></div>
+                <div class="thM colTorc2"></div>
+            </div>
+        </div>
+        <div id="Line6">
+            <div class="thM colNum"></div>
+            <div class="thM colSize"></div>
+            <div class="thM colV"></div>
+            <div class="thM colRecept"></div>
+            <div class="thM colSort"></div>
+            <div class="grDef">
+                <div class="thM colD1 defH"></div>
+                <div class="thM colD2 defH"></div>
+                <div class="thM colD3 defH"></div>
+                <div class="thM colD4 defH"></div>
+                <div class="thM colD5 defH"></div>
+                <div class="thM colD6 defH"></div>
+                <div class="thM colD7 defH"></div>
+                <div class="thM colD8 defH"></div>
+                <div class="thM colD9 defH"></div>
+                <div class="thM colD10 defH"></div>
+            </div>
+            <div class="grTrc">
+                <div class="thM colTorc1"></div>
+                <div class="thM colTorc2"></div>
+            </div>
+        </div>
+        <div id="Line7">
+            <div class="thM colNum"></div>
+            <div class="thM colSize"></div>
+            <div class="thM colV"></div>
+            <div class="thM colRecept"></div>
+            <div class="thM colSort"></div>
+            <div class="grDef">
+                <div class="thM colD1 defH"></div>
+                <div class="thM colD2 defH"></div>
+                <div class="thM colD3 defH"></div>
+                <div class="thM colD4 defH"></div>
+                <div class="thM colD5 defH"></div>
+                <div class="thM colD6 defH"></div>
+                <div class="thM colD7 defH"></div>
+                <div class="thM colD8 defH"></div>
+                <div class="thM colD9 defH"></div>
+                <div class="thM colD10 defH"></div>
+            </div>
+            <div class="grTrc">
+                <div class="thM colTorc1"></div>
+                <div class="thM colTorc2"></div>
+            </div>
+        </div>
+        <div id="Line8">
+            <div class="thM colNum"></div>
+            <div class="thM colSize"></div>
+            <div class="thM colV"></div>
+            <div class="thM colRecept"></div>
+            <div class="thM colSort"></div>
+            <div class="grDef">
+                <div class="thM colD1 defH"></div>
+                <div class="thM colD2 defH"></div>
+                <div class="thM colD3 defH"></div>
+                <div class="thM colD4 defH"></div>
+                <div class="thM colD5 defH"></div>
+                <div class="thM colD6 defH"></div>
+                <div class="thM colD7 defH"></div>
+                <div class="thM colD8 defH"></div>
+                <div class="thM colD9 defH"></div>
+                <div class="thM colD10 defH"></div>
+            </div>
+            <div class="grTrc">
+                <div class="thM colTorc1"></div>
+                <div class="thM colTorc2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" id="openMenu" style="display:none">
+        <div id="receptOpenButtom" class="punctMenu"><img src="assets/img/Group%202rece.svg" class="imgMenuRecept"><span class="txtMenuRecep">Рецепты сортов<br><br></span></div>
+        <div id="adminOpenButtom" class="punctMenu"><img src="assets/img/admin.svg" class="imgMenuAdmin"><span class="txtMenuAdmin">Администрирование</span></div>
+        <div id="statisticOpenButtom" class="punctMenu"><img src="assets/img/stat.svg" class="imgMenuStatist"><span class="txtMenuStatist">Статистика</span></div>
+        <div id="diagnosticOpenButtom" class="punctMenu"><img src="assets/img/diagn.svg" class="imgMenuDiagnoz"><span class="txtMenuDiagnoz">Диагностика</span></div>
+        <div id="ReteacheOpenButtom" class="punctMenu"><img src="assets/img/reteach.svg" class="imgMenuReteach"><span class="txtMenuReteach">Дообучение</span></div>
+        <div id="logOpenButtom" class="punctMenu"><img src="assets/img/document%20list.svg" class="imgMenuLog"><span class="txtMenuLog">Log</span></div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/menu.js"></script>
+</body>
+
+</html>
